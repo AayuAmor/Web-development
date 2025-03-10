@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    color:white;
+    background-color: red;
+    border: 1px solid black;
+    background-image:url("image-beta.jpg");
+    background-size: cover;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+body{
+    background-image: url("image-beta.jpg");
+    background-size:contain;
+    color:rgb(49, 58, 84);
+
+  
+}

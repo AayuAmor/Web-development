@@ -1,0 +1,17 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+    text-transform: capitalize;
+}
+#Outer{
+    font-size:  25px;
+    text-align: center;
+}
+#Inner{
+        font-size: 10px;
+}

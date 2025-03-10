@@ -1,0 +1,73 @@
+body{
+    
+    text-align: center;
+}
+h1{
+    font-size:60px;
+}
+div{
+    height:50px;
+    width:50px;
+    border:3px solid black;
+    display:inline-block;
+    
+}
+#bau{
+    width: 900px;
+    height: 900px;
+    display:flex;
+   flex-direction: /* column; */row;
+    /* flex-direction property specifies the direction of the flexible items. */
+    justify-content:/* flex-end; */ center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+     /* align-items property specify the default alignment for items inside the flex container. */
+    /* align-content: flex-start; */
+    /* align-content property is used to align the flex lines. */
+    /* flex-shrink: 1; */
+    /* the value 1 in the flex-shrink property means that the item will shrink equally if the container size is smaller than the items size. */
+    flex-grow: 1;
+    /* flex-grow property applies only to flex items, not the parent flex container. It controls how much a child element grows relative to other flex items inside the same flex container. */
+    
+    
+   
+
+}
+
+#div1{
+    background-color: skyblue;
+    height: 50px;
+    width: 100px;
+    flex-grow: 1;
+    /* flex-grow property specifies the items occupies the available space in the flex container.//// It eventually makes flex items grow according to the size of flex container. */
+
+    
+}
+#div2{
+    background-color: pink;
+    height: 150px;
+    width: 100px;
+    flex-grow: 2;
+    /* flex-shrink: 0.5; */
+    /* the value 0.5 in the flex-shrink property means that the item will shrink half of the size of the other items if the container size is smaller than the items size. // if the value is 0, the item will not shrink. // if the value is 2, the item will shrink twice as the other items. */
+    
+}
+#div3{
+    background-color: rgb(179, 179, 67);
+    height: 50px;
+    width: 100px;
+    
+}
+#div4{
+    background-color: rgb(179, 67, 67);
+    height: 50px;
+    width: 100px;
+   
+}
+#div5{
+    background-color: purple;
+    height: 50px;
+    width: 100px;
+    /* align-self: flex-end; */
+    /* align-self property aligns itself in the flex container. */
+}

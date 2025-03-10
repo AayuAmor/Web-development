@@ -1,0 +1,38 @@
+div{
+    margin: 40px;
+    height:100px;
+    width: 100px;
+    background-color:#1d1d32;
+    color:skyblue;
+    border: 4px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay:1ms; */
+    transition: all 0.5s ease-in 1ms;
+    /* transform: rotate(360deg); */
+    rotate:x 180deg;
+    user-select: none;
+    transform: skew(39deg);
+    /* skew property is used to stretch element from both corners */
+
+}
+ 
+div:hover{
+    background-color: aqua;
+    color:#1d1d32;
+    font-size: 20px;
+    /* transform: rotate(360deg) ; */
+    rotate:  180deg;
+   
+    /* translate:200px; */
+}
+div:active{
+    background-image: url("doberman.jpg");
+    background-size: cover;
+    transform: scale(4,4);
+    /* transform: translateY(-200px); */
+    transform: rotateZ(180deg);
+    
+    
+}

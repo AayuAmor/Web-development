@@ -1,0 +1,76 @@
+*{
+    margin:none;
+    padding:none;
+    background-color: rgb(52, 52, 89);
+}
+nav{
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px; 
+    }
+}
+
+
+#amazon{
+    color: orange;
+    font-size: 25px;
+}
+
+#search{
+    background-color: black;
+    button {
+        background-color: chocolate;
+    }
+    input{
+        background-color: white;
+    }
+}
+
+.contentBox{
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    display:inline-block;
+  
+
+  
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+  
+}
+#box3{
+    background-color: green;
+   
+}
+#content{
+   height: 630px;
+   
+    display: flex;
+    justify-content: center; /* Centers the boxes */
+    gap: 20px; /* Adds space between boxes */
+    padding: 20px; /* Avoids touching edges */
+}
+
+   
+
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align:center;
+}

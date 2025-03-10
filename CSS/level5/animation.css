@@ -1,0 +1,36 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    position:absolute;
+    left:100px;
+    top: 100px;
+    /* animation-name: colorAnimate;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 4s ease-in 2s infinite alternate;
+
+}
+@keyframes colorAnimate {
+    /* from  */ 0%
+    {
+        background-color: #00ffff; 
+        left:0px;
+    }
+    50%{
+        background-color: #00ff6a;
+    }
+
+    /* to  */100%
+    {
+        background-color: #ff0101;
+        left: 600px;
+    }
+}
+
+/* div :hover{
+    
+} */

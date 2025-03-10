@@ -1,0 +1,29 @@
+.class{ 
+    text-align: right;
+    /* font-size: x-small; */
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: red;
+    font-family: monospace;
+    /* this is font-family property; */
+    
+}
+#beta {
+    color: #ff9900;
+    text-decoration: underline;
+}
+.beta2 {
+    color: #ad0e5b;
+}
+p {
+    color:aqua;
+}
+button {
+    color:#ffff00 ;
+    background-color:rgb(45, 100, 112) ;
+}
+body {
+    background-color:#18556b ;
+}
