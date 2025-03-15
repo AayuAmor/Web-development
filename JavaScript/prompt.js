@@ -27,9 +27,12 @@ else if (score <=59 && score>=50){
 else if(score<=49 && score >=0){
     // console.log("Your Grade is F");
     Grade="F"
+    console.log("On the basis of Your Score,\n Your Grade is",Grade);
     console.log("You Failed !!!");
 }
 else{
-    console.log("Invalid Score Entered !!!")
+    console.log("Invalid Score Entered !!!");
 }
-console.log("On the basis of Your Score,\n Your Grade is",Grade);
+if (Grade !== null && Grade !== "F") {
+    console.log("On the basis of Your Score,\n Your Grade is",Grade);
+}
