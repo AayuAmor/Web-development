@@ -6,10 +6,11 @@ function sum (a, b){
 const arrowSum = (a, b) =>{
     console.log(a+b);
 };
-
+// mul funtion
 function mul(a,b){
     return a*b;
 }
+//ArrowMul function 
 const arrowMul=(a, b) => {
     console.log(a*b);
 };
